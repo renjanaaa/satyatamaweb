@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rute Kami - Satyatama Transport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="logo.svg" alt="Satyatama Transport Logo" class="logo-img">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="layanan.html" class="nav-link">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="rute.html" class="nav-link active">Rute Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="armada.html" class="nav-link">Armada</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tentang.html" class="nav-link">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontak.html" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Rute Perjalanan Kami</h1>
+            <p class="page-subtitle">15 rute perjalanan antar kota antar provinsi dengan jadwal keberangkatan reguler</p>
+        </div>
+    </section>
+
+    <!-- Routes Filter -->
+    <section class="routes-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua Rute</button>
+                <button class="filter-btn" data-filter="jember">Dari Jember</button>
+                <button class="filter-btn" data-filter="banyuwangi">Dari Banyuwangi</button>
+                <button class="filter-btn" data-filter="denpasar">Dari Denpasar</button>
+                <button class="filter-btn" data-filter="madura">Dari Madura</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Routes Section -->
+    <section class="all-routes">
+        <div class="container">
+            <div class="routes-grid">
+                <!-- Rute dari Jember -->
+                <div class="route-card" data-origin="jember">
+                    <h3 class="route-title">🌋 The Pandalungan</h3>
+                    <p class="route-subtitle">Jember – Bitung</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 24-26 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 16:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Signature Class</div>
+                            <div class="price">Rp 650.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Luxury Class</div>
+                            <div class="price">Rp 850.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card popular" data-origin="jember">
+                    <div class="popular-badge">Populer</div>
+                    <h3 class="route-title">🔥 Blue Fire</h3>
+                    <p class="route-subtitle">Jember – Priok</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 16-18 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 18:00 & 20:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Luxury Double Decker</div>
+                            <div class="price">Rp 450.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Signature</div>
+                            <div class="price">Rp 580.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="jember">
+                    <h3 class="route-title">🌅 The Java Sunset</h3>
+                    <p class="route-subtitle">Jember – Solo-Wonogiri-Lasem</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 12-14 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 19:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Luxury 18 Seat</div>
+                            <div class="price">Rp 350.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">First Premiere Class</div>
+                            <div class="price">Rp 450.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="jember">
+                    <h3 class="route-title">🦁 Nusa Barong</h3>
+                    <p class="route-subtitle">Jember – Tasikmalaya</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 14-16 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 19:30</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Premiere Class 28 Seat</div>
+                            <div class="price">Rp 380.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="jember">
+                    <h3 class="route-title">🏔️ Bandealit</h3>
+                    <p class="route-subtitle">Jember – Temanggung (Secang)</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 10-12 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 20:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Luxury 18 Seat</div>
+                            <div class="price">Rp 300.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="jember">
+                    <h3 class="route-title">🌊 Watu Ulo</h3>
+                    <p class="route-subtitle">Jember – Jepara Tol</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 12-14 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 19:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Premiere Class 28 Seat</div>
+                            <div class="price">Rp 320.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="jember">
+                    <h3 class="route-title">⭐ Raung Excellence</h3>
+                    <p class="route-subtitle">Jember – Kebayoran/Pal</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 16-18 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 17:00 & 19:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Platinum Double Decker</div>
+                            <div class="price">Rp 460.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Diamond Signature</div>
+                            <div class="price">Rp 590.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rute dari Banyuwangi -->
+                <div class="route-card" data-origin="banyuwangi">
+                    <h3 class="route-title">🌺 Blambangan Line</h3>
+                    <p class="route-subtitle">Banyuwangi – Merak</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 18-20 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 16:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Superior Signature</div>
+                            <div class="price">Rp 500.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">First Premiere Class</div>
+                            <div class="price">Rp 650.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="banyuwangi">
+                    <h3 class="route-title">💃 Gandrung Dance</h3>
+                    <p class="route-subtitle">Banyuwangi – Kutabumi</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 16-18 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 18:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Luxury 18 Seat</div>
+                            <div class="price">Rp 450.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Superior Signature</div>
+                            <div class="price">Rp 580.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="banyuwangi">
+                    <h3 class="route-title">🏞️ Argopuro Line</h3>
+                    <p class="route-subtitle">Banyuwangi – Bubulak</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 15-17 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 18:30</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Platinum Double Decker</div>
+                            <div class="price">Rp 420.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">First Premiere Class</div>
+                            <div class="price">Rp 550.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card popular" data-origin="banyuwangi">
+                    <div class="popular-badge">Populer</div>
+                    <h3 class="route-title">⚡ The Dynamic</h3>
+                    <p class="route-subtitle">Banyuwangi – Bandung</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 14-16 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 19:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Luxury 18 Seat</div>
+                            <div class="price">Rp 400.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Premiere Class 28 Seat</div>
+                            <div class="price">Rp 520.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="banyuwangi">
+                    <h3 class="route-title">🐢 Sukamade</h3>
+                    <p class="route-subtitle">Banyuwangi – Kudus Pantura</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 12-14 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 20:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Premiere Class 28 Seat</div>
+                            <div class="price">Rp 350.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rute dari Madura -->
+                <div class="route-card" data-origin="madura">
+                    <h3 class="route-title">🌉 Suramadu Line</h3>
+                    <p class="route-subtitle">Madura – Bubulak</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 14-16 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 17:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Sleeper Luxury 32 Seat</div>
+                            <div class="price">Rp 380.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Premiere Class 34 Seat</div>
+                            <div class="price">Rp 480.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rute dari Denpasar -->
+                <div class="route-card popular" data-origin="denpasar">
+                    <div class="popular-badge">Populer</div>
+                    <h3 class="route-title">🌺 Melasti Sunset</h3>
+                    <p class="route-subtitle">Denpasar – Bandung</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 20-22 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 15:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Superior Signature</div>
+                            <div class="price">Rp 550.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Premiere Class 30 Seat</div>
+                            <div class="price">Rp 720.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-origin="denpasar">
+                    <h3 class="route-title">🏛️ Dewata Sunset</h3>
+                    <p class="route-subtitle">Denpasar – Cepu Via Selatan</p>
+                    <div class="route-details">
+                        <p><strong>Durasi:</strong> 18-20 jam</p>
+                        <p><strong>Jadwal:</strong> Setiap hari 16:00</p>
+                    </div>
+                    <div class="class-prices">
+                        <div class="class-price">
+                            <div class="class-name">Superior Signature</div>
+                            <div class="price">Rp 500.000</div>
+                        </div>
+                        <div class="class-price">
+                            <div class="class-name">Superior Luxury Class</div>
+                            <div class="price">Rp 650.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.svg" alt="Satyatama Transport Logo" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description">
+                        PT. Arkanda Pradana Aditya - Satyatama Transport, pilihan terpercaya untuk perjalanan bus mewah antar kota antar provinsi.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook">📘</a>
+                        <a href="#" class="social-link" title="Instagram">📷</a>
+                        <a href="#" class="social-link" title="TikTok">🎵</a>
+                        <a href="#" class="social-link" title="WhatsApp">💬</a>
+                        <a href="#" class="social-link" title="YouTube">📺</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Menu Utama</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="layanan.html">Layanan</a></li>
+                        <li><a href="rute.html">Rute Kami</a></li>
+                        <li><a href="armada.html">Armada</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Rute Populer</h4>
+                    <ul class="footer-links">
+                        <li><a href="#blue-fire">Blue Fire (Jember - Priok)</a></li>
+                        <li><a href="#the-dynamic">The Dynamic (Banyuwangi - Bandung)</a></li>
+                        <li><a href="#melasti-sunset">Melasti Sunset (Denpasar - Bandung)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Kontak</h4>
+                    <div class="footer-contact">
+                        <p><span class="contact-icon-small">🏢</span> PT. Arkanda Pradana Aditya</p>
+                        <p><span class="contact-icon-small">📍</span> Jl. Brawijaya no.90, Mangli, Kec. Kaliwates, Jember, Jawa Timur 68131</p>
+                        <p><span class="contact-icon-small">📞</span> Call Center: (0331) 3080512</p>
+                        <p><span class="contact-icon-small">✉️</span> info@satyatamatransport.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PT. Arkanda Pradana Aditya - Satyatama Transport. Hak Cipta Dilindungi.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Route filtering functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const routeCards = document.querySelectorAll('.route-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filter = button.getAttribute('data-filter');
+
+                routeCards.forEach(card => {
+                    if (filter === 'all') {
+                        card.style.display = 'block';
+                    } else {
+                        if (card.getAttribute('data-origin') === filter) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
